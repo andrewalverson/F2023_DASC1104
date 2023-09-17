@@ -9,3 +9,5 @@
 
 - **jupyter-templates** contains partially complete Jupyter notebooks that we will fill in during class
 
+- **jupyter-completed** contains the Jupyter notebooks completed in class together
+
