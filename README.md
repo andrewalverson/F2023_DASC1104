@@ -11,3 +11,5 @@
 
 - **jupyter-completed** contains the Jupyter notebooks completed in class together
 
+- **python-scripts** contains Python scripts written in class
+
