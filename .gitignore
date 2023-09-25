@@ -3,3 +3,4 @@ Icon*
 .DS_Store
 jupyter-templates/.ipynb_checkpoints/*
 jupyter-completed/.ipynb_checkpoints/*
+jupyter-templates/.virtual_documents/
