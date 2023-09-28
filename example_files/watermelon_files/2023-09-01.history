@@ -1,0 +1,96 @@
+34909  2023-09-01 cd DASC1104
+34910  2023-09-01 c
+34911  2023-09-01 cd example_files
+34912  2023-09-01 c
+34913  2023-09-01 cd watermelon_files/
+34914  2023-09-01 c
+34915  2023-09-01 ls -al
+34916  2023-09-01 andy
+34917  2023-09-01 ls -al
+34918  2023-09-01 cat aa/*.fasta
+34919  2023-09-01 ls -al
+34920  2023-09-01 cat aa/*.fasta
+34921* 2023-09-01  > genes.txt
+34922  2023-09-01 ls -al
+34923  2023-09-01 less -S genes.txt 
+34924  2023-09-01 echo andy
+34925  2023-09-01 echo andy > genes.txt 
+34926  2023-09-01 cat genes.txt 
+34927  2023-09-01 cat aa/*.fasta > genes.txt 
+34928  2023-09-01 l genes.txt 
+34929  2023-09-01 ls -al
+34930  2023-09-01 cat nt/*.fasta >> genes.txt 
+34931  2023-09-01 less -S genes.txt 
+34932  2023-09-01 cat nt/*.fasta andy > genes.txt 
+34933  2023-09-01 cat nt/*.fasta andy > genes.txt 2>err
+34934  2023-09-01 cat err 
+34935  2023-09-01 less -N watermelon.gff 
+34936  2023-09-01 wc watermelon.gff 
+34937  2023-09-01 wc -l watermelon.gff 
+34938  2023-09-01 up
+34939  2023-09-01 c
+34940  2023-09-01 cd other_files/
+34941  2023-09-01 c
+34942  2023-09-01 cat fruit.txt 
+34943  2023-09-01 sort -k2 fruit.txt 
+34944  2023-09-01 sort -k3 fruit.txt 
+34945  2023-09-01 cat fruit.txt 
+34946  2023-09-01 sort -k2r fruit.txt 
+34947  2023-09-01 cd ../watermelon_files/
+34948  2023-09-01 c
+34949  2023-09-01 less -S watermelon.gff 
+34950  2023-09-01 sort -k7g watermelon.gff 
+34951  2023-09-01 man sort
+34952  2023-09-01 cd ../
+34953  2023-09-01 c
+34954  2023-09-01 cd other_files/
+34955  2023-09-01 c
+34956  2023-09-01 cat fruit.txt 
+34957  2023-09-01 grep OH fruit.txt 
+34958  2023-09-01 grep -i oh fruit.txt 
+34959  2023-09-01 grep le fruit.txt 
+34960  2023-09-01 cat fruit.txt 
+34961  2023-09-01 grep apple fruit.txt 
+34962  2023-09-01 grep -v apple fruit.txt 
+34963  2023-09-01 grep -v apple fruit.txt > fruit.notapples
+34964  2023-09-01 cat fruit.notapples 
+34965  2023-09-01 cd ../watermelon_files/
+34966  2023-09-01 c
+34967  2023-09-01 head genes.txt 
+34968  2023-09-01 grep > genes.txt 
+34969  2023-09-01 cat genes.txt 
+34970  2023-09-01 grep > genes.txt
+34971  2023-09-01 cat nt/*.fasta andy > genes.txt 2>err
+34972  2023-09-01 l genes.txt 
+34974  2023-09-01 grep '>' genes.txt 
+34975  2023-09-01 cd nt
+34977  2023-09-01 grep ATCGA *.fasta
+34978  2023-09-01 grep -l ATCGA *.fasta
+34979  2023-09-01 cd ../../other_files/
+34981  2023-09-01 rm fruit.notapples 
+34982  2023-09-01 cat fruit.txt 
+34983  2023-09-01 grep apple
+34984  2023-09-01 grep apple fruit.txt 
+34985  2023-09-01 grep apple fruit.txt | grep FL
+34986  2023-09-01 cd ../watermelon_files/
+34988  2023-09-01 cd ../other_files/
+34989  2023-09-01 grep apple fruit.txt | grep AZ
+34990  2023-09-01 cd ../watermelon_files/
+34991  2023-09-01 sort -k7g watermelon.gff 
+34992  2023-09-01 sort -k7g watermelon.gff | less -N
+34993  2023-09-01 sort -k7g watermelon.gff | less -NS
+34994  2023-09-01 sort -k7g watermelon.gff | column -t | less -NS
+34995  2023-09-01 sort -k7gr watermelon.gff | column -t | less -NS
+34996  2023-09-01 sort -k7gr watermelon.gff | grep intron | column -t | less -NS
+34997  2023-09-01 sort -k7gr watermelon.gff | grep intron | grep nad | column -t | less -NS
+34998  2023-09-01 clear;ls -al;echo andy
+34999  2023-09-01 touch bash.sh
+35000  2023-09-01 nano bash.sh 
+35001  2023-09-01 cat bash.sh 
+35003  2023-09-01 chmod u+x bash.sh 
+35005  2023-09-01 ./bash.sh 
+35006  2023-09-01 history
+35007  2023-09-01 history | grep 2023-09-01 > 2023-09-01.history
+35008  2023-09-01 touch README.md
+35009  2023-09-01 nano README.md 
+35010  2023-09-01 history | grep 2023-09-01 > 2023-09-01.history
