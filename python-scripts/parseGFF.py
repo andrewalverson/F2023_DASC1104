@@ -15,7 +15,16 @@ gff_file   = 'covid_genes.gff3'
 # skip the first header line
 # need to remove all the line breaks and save the genome in one big string
 
+# create a variable to hold the genome sequence
+genome_sequence = ''
+
 # read in the FASTA file
 with open(fasta_file, 'r') as FASTA:
+	# skip the first line
+	next(FASTA)
+	
+	# read in the file, line by line
 	for line in FASTA:
-		print(line)
+		genome_sequence += line.rstrip()
+		
+print('Genome size', len(genome_sequence), 'nucleotides')
