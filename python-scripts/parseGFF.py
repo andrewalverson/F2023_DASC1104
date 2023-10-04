@@ -28,3 +28,39 @@ with open(fasta_file, 'r') as FASTA:
 		genome_sequence += line.rstrip()
 		
 print('Genome size', len(genome_sequence), 'nucleotides')
+
+
+# read in the GFF file
+with open(gff_file, 'r') as GFF:
+	for line in GFF:
+		# remove the line break character
+		line = line.rstrip()
+
+		# split each line on a tab
+		columns = line.split("\t")
+
+		# grab the start and end coords, and convert them to integers
+		start = int(columns[3])
+		end   = int(columns[4])
+
+		print(end - start)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
