@@ -14,13 +14,13 @@ with open("presidents.csv", 'r') as file:
     # create a csv reader object
     reader = csv.reader(file, delimiter=',')
 
-    
   #  counter = 0
 
     # loop over all the lines
     for line in reader:
         # skipping the header line
-   #     counter +=1 
+        # counter +=1
+
         if(line[0].strip() == 'Presidency'):
             continue
 
@@ -31,7 +31,6 @@ with open("presidents.csv", 'r') as file:
             parties[name] = party
    
 # print("output would print", counter, "lines right now")
-
 
 for pres, party in parties.items():
     party_count[party] +=1
