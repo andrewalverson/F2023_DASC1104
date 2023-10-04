@@ -28,13 +28,16 @@ with open(fasta_file, 'r') as FASTA:
 		genome_sequence += line.rstrip()
 		
 print('Genome size', len(genome_sequence), 'nucleotides')
-
+print()
 
 # read in the GFF file
 with open(gff_file, 'r') as GFF:
 	for line in GFF:
-		# remove the line break character
+		# remove the newline character
 		line = line.rstrip()
+
+		# print the line
+		print(line)
 
 		# split each line on a tab
 		columns = line.split("\t")
@@ -43,24 +46,12 @@ with open(gff_file, 'r') as GFF:
 		start = int(columns[3])
 		end   = int(columns[4])
 
-		print(end - start)
+		# calculate the length
+		length = (end - start) + 1
+		# print("\t", length, '\t', end = '')
+		print('\tGene length:', length, 'nucleotides')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		# extract this feature/gene from the genome sequence
+		feature_sequence = genome_sequence[start-1:end]
+		print('\tGene sequence:', feature_sequence, 'nucleotides')
 
